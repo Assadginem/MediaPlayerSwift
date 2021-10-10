@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D941DF2F2713439200FB1AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941DF2E2713439200FB1AE5 /* AppDelegate.swift */; };
 		D941DF312713439200FB1AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941DF302713439200FB1AE5 /* SceneDelegate.swift */; };
-		D941DF332713439200FB1AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941DF322713439200FB1AE5 /* ViewController.swift */; };
 		D941DF362713439200FB1AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D941DF342713439200FB1AE5 /* Main.storyboard */; };
 		D941DF382713439600FB1AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D941DF372713439600FB1AE5 /* Assets.xcassets */; };
 		D941DF3B2713439600FB1AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D941DF392713439600FB1AE5 /* LaunchScreen.storyboard */; };
+		D941DF432713440500FB1AE5 /* GenreButtonScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941DF422713440500FB1AE5 /* GenreButtonScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D941DF2B2713439200FB1AE5 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D941DF2E2713439200FB1AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D941DF302713439200FB1AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D941DF322713439200FB1AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D941DF352713439200FB1AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D941DF372713439600FB1AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D941DF3A2713439600FB1AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D941DF3C2713439600FB1AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D941DF422713440500FB1AE5 /* GenreButtonScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D941DF2E2713439200FB1AE5 /* AppDelegate.swift */,
+				D941DF422713440500FB1AE5 /* GenreButtonScreenViewController.swift */,
 				D941DF302713439200FB1AE5 /* SceneDelegate.swift */,
-				D941DF322713439200FB1AE5 /* ViewController.swift */,
 				D941DF342713439200FB1AE5 /* Main.storyboard */,
 				D941DF372713439600FB1AE5 /* Assets.xcassets */,
 				D941DF392713439600FB1AE5 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D941DF332713439200FB1AE5 /* ViewController.swift in Sources */,
+				D941DF432713440500FB1AE5 /* GenreButtonScreenViewController.swift in Sources */,
 				D941DF2F2713439200FB1AE5 /* AppDelegate.swift in Sources */,
 				D941DF312713439200FB1AE5 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
